@@ -99,7 +99,7 @@ void AminoAcid::addAminoAcids(std::string _aminoAcids)
 {
 	for (size_t i = 0; i != _aminoAcids.size(); ++i)
 	{
-		if (std::isdigit(_aminoAcids[i]))
+		if (!std::isalpha(_aminoAcids[i]))
 		{
 			aminoAcids.push_back('?');
 		}

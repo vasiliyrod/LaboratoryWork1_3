@@ -129,9 +129,12 @@
   <ItemGroup>
     <ClCompile Include="AminoAcid.cpp" />
     <ClCompile Include="Laboratory_work_1.cpp" />
+    <ClCompile Include="ProteinSequence.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AminoAcid.h" />
+    <ClInclude Include="ProteinSequence.h" />
+    <ClInclude Include="Translatable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
